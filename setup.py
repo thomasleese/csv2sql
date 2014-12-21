@@ -6,8 +6,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='csv2sql',
-    version='1.0.1',
+    version='1.0.2',
     keywords='csv sql',
+    author='Tom Leese',
+    author_email='inbox@tomleese.me.uk',
     url='https://github.com/tomleese/csv2sql',
     packages=find_packages(exclude=['tests', 'tests.*']),
     entry_points={
